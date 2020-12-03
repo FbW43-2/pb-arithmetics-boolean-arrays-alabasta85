@@ -53,7 +53,7 @@ let firstName, givenName;
 firstName = 'Stacey';
 let name = givenName || firstName || 'John'; 
 console.log(name);
-//Result: Stacey. Because he shows the only true in this case: firstName = "Stacey", givenName and 'John' are undefined, so false.
+//Result: Stacey. Because it is only the firstName that is defined in this case: firstName = "Stacey", givenName and 'John' are undefined, so false.
 
 
 
